@@ -1,0 +1,20 @@
+{
+  "_note": "Phrases below were written for this repo as an editable starting point. Replace or extend them with your own Endless Engine / Stereo Cat phrases; each phrase may set intensity, crowd, swing and/or recipes (names from engine_hooks.py or your --recipes file).",
+  "sports": {
+    "football": ["football", "gridiron", "nfl", "touchdown"],
+    "basketball": ["basketball", "hoops", "nba", "arena"],
+    "soccer": ["soccer", "futbol", "football club", "world cup", "pitch"],
+    "boxing": ["boxing", "ring walk", "walkout", "heavyweight", "fight"],
+    "baseball": ["baseball", "ballpark", "mlb", "home run"]
+  },
+  "phrases": {
+    "legendary":      {"intensity": 1.2},
+    "stadium roar":   {"crowd": 1.4},
+    "tunnel":         {"crowd": 1.1},
+    "swagger":        {"swing": 0.3},
+    "stereo cat":     {"recipes": ["haas_cut"]},
+    "cut the cat":    {"recipes": ["haas_cut", "mid_side_width"]},
+    "endless":        {"recipes": ["endless_drift"]},
+    "wide":           {"recipes": ["mid_side_width"]}
+  }
+}
